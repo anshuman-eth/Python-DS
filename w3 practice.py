@@ -5,23 +5,11 @@ def divisor(n,mn,mx):
                 print(f"{i} is a divisor of {n}.")
             else: 
                 print(f"{i} is not a divisor of {n}.")
-
-
-
-
-
-
-
     else:
         if n%mx==0:
             print(f"{mx} is a divisor of {n}.") 
         else:
             print(f"{mx} is not a divisor of {n}.") 
-
-
-
-
-
 
 
 n=int(input("Input the number of apples Harry Potter has got:"))
