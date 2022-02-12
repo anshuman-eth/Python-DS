@@ -7,12 +7,10 @@ def team(a,n):
             if j.isnumeric()==True:
                 t=t+int(j)
         if t>1:
-            p+=1
+            p=p+1
         z=z+1
     print(p)
-
             
-
 if __name__=="__main__":
     l=[]
     n=int(input())
