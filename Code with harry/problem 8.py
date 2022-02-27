@@ -9,6 +9,7 @@ def rohan(l,n):
         if l[i]==n*(i+1):
             pass
         else:
+            print(f"Table is wrong at {i+1}")
             print(f"correct answer is {n}*{i+1}={t}")
 
 if __name__=="__main__":
