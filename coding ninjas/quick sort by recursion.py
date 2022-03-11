@@ -29,7 +29,6 @@ def quickSort(a,si,ei):
     quickSort(a,pivot_index + 1, ei)
 
 
-
 a=[10,10,2,3,9,5,7,1,4]
 x=quickSort(a,0,len(a)-1)
 print(a)
